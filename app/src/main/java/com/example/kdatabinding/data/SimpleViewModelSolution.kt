@@ -1,5 +1,10 @@
 package com.example.kdatabinding.data
 
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.Transformations
+import androidx.lifecycle.ViewModel
+
 class SimpleViewModelSolution : ViewModel() {
     private val _name = MutableLiveData("Ada")
     private val _lastName = MutableLiveData("Lovelace")

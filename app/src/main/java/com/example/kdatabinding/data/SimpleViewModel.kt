@@ -1,8 +1,10 @@
 package com.example.kdatabinding.data
 
-class simpleViewModel : ViewModel() {
-    val name = "Zaid"
-    val lastName = "Reshamwale"
+import androidx.lifecycle.ViewModel
+
+class SimpleViewModel : ViewModel() {
+    val name = "Ravitej"
+    val lastName = "Satihal"
     var likes = 0
     private set // This is to prevent external modification of the variable.
     /**
